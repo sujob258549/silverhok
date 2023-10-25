@@ -1,0 +1,557 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+
+}
+.container{
+    max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 50px;
+  
+}
+.top-hader{
+    background-color: #173a69;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.top-hader .main-colam{
+    display: flex;
+}
+
+.top-hader .left-colam{
+    width: 60%;
+   
+}
+
+.top-hader .phone{
+    position: relative;
+   padding-right: 40px;
+}
+.top-hader .phone::before{
+    content: '\f2a0';
+    font-family: fontawesome;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-right: 8px;
+   
+}
+
+.top-hader .write-colam{
+    width: 40%;
+    text-align: right;
+  
+}
+
+.top-hader .email{
+    position: relative;
+   
+}
+.top-hader .email::before{
+    content: '\f0e0';
+    font-family: fontawesome;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    padding-right: 8px;
+   
+}
+
+
+
+.top-hader  a{
+    color: aliceblue;
+    text-decoration: none;
+   
+}
+.top-hader .twitter{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+/*tow saction.................................................................................................*/
+
+
+.manu-section .main-colam{
+    display: flex;
+    align-items: center;
+   
+
+}
+.manu-section .laft-colam{
+    width: 20%;
+}
+    
+
+.manu-section img{
+    padding-top: 10px;
+}
+
+.manu-section .write-colam{
+    width: 80%;
+   
+}
+.manu-section ul{
+    list-style: none;
+    text-align: right;
+  
+}
+.manu-section ul li{
+    display: inline-block;
+    padding-left: 30px;
+   
+  
+}
+
+.manu-section ul li:last-child{
+    left: 0;
+}
+
+.manu-section ul li a{
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 15px;
+    position: relative;
+ 
+ 
+}
+
+
+
+.manu-section ul li a::before{
+    position: absolute;
+    content: '';
+    background-color: black;
+    top: 50px;
+    left: 53%;
+    height: 4px;
+   transform: translateX(-50%);
+   text-align: center;
+   width: 0;
+   transition: .4s;
+}
+
+.manu-section ul li a:hover:before{
+   
+   width: calc(100% + 15px);
+   
+}
+
+
+/*thard section...............................................................*/
+ .slider img{
+    
+    width: 100%;
+    
+   
+   
+
+ }
+
+
+    .slider-section .bacgroung{
+        position: relative;
+    }
+    .slider-section .main{
+        display: flex;
+        position: absolute;
+        top: 50%;
+        margin-left: 50%;
+    }
+
+    .slider-section h3{
+        font-size: 17px;
+        font-weight: bold;
+    }
+    .slider-section h1{
+        font-size: 60px;
+        font-style: Extrabold;
+        font-weight: 700;
+        
+    }
+    .slider-section p {
+        font-size: 14px;
+        padding-bottom: 20px;
+
+    }
+    .slider-section a{
+        height: 10px;
+        width: 20px;
+        text-decoration: none;
+        border: none;
+        padding: 5px;
+        border: 2px solid #173a69;
+    }
+
+    .contec{
+        background-color: #173a69;
+        color: white;
+    }
+
+    .contec:hover{
+        background-color:white;
+        color: #173a69
+    }
+     
+    .get{
+        color: #173a69;
+        background-color: white;
+    }
+    .get:hover{
+        color: white;
+        background-color: #173a69;
+    }
+
+    /* ........................................................................*/
+    
+    .services-section{
+        text-align: center;
+       
+    }
+
+    .services-section .container{
+        margin-top: 50px;
+    }
+   
+
+    .services-section img{
+        margin-top: 30px;
+    }
+    .services-section h2{
+        font-size: 28px;
+        font-weight: 700;
+        
+    }
+    .services-section .down{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-top: 20px;
+        
+    }
+
+    .services-section .icon h4{
+        left: 0;
+    }
+
+
+    /*....................................Abaut saction.............................*/
+    
+     
+
+    .about-section {
+        background: url(./img/about.jpg);
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        margin-top: 100px;
+
+    }
+
+
+    .about-section .left{
+        margin-right: 20px;
+    }
+    
+    .about-section .left img{
+        width: auto;
+
+    }
+    .about-section .rite img{
+        width: auto;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .about-section .back{
+        position: relative;
+    }
+
+    .about-section .main{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      margin-top: 20px;
+    }
+
+    .about-section h2{
+        margin-top: 50px;
+            font-size: 28px;
+            font-style: bold;
+    }
+    .about-section p{
+        font-style: 15px;
+        margin-bottom: 30px;
+       
+        color:black;
+
+    }
+
+
+
+    /*...........................................................................*/
+     .gallery-section .top-section img{
+        width: auto;
+        margin: 20px 0;
+     }
+     .gallery-section .top-section{
+        text-align: center;
+     }
+     .gallery-section .top-section h2{
+        margin-top: 50px;
+        text-transform: uppercase;
+        font-size: 28px;
+     }
+
+    .gallery-section img{
+        width: 100%;
+    }
+    .gallery-section .colam img{
+        width: auto;
+    }
+
+    .gallery-section .main-section{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+
+    .gallery-section .photo-section{
+        position: relative;
+    }
+
+    .gallery-section .photo-section::after{
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        transition: .4s;
+    }
+    .gallery-section .photo-section:hover:after{
+        background-color: black;
+        opacity:.5;
+    }
+    .gallery-section .colam{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: white;
+        opacity: 0;
+        z-index: 5;
+        transition: .4s;
+    }
+
+    .gallery-section .photo-section:hover .colam{
+        opacity: 1;
+    }
+
+
+
+    .gallery-section h2{
+        font-size: 26px;
+
+    }
+     
+    .gallery-section p{
+        font-size: 17px;
+    }
+   
+      .gallery-section .get{
+        margin-top: 30px;
+        background: none;
+      } 
+      
+
+     
+    
+
+    .gallery-section a{
+        text-align: center;
+        background-color: #173a69;
+        color: white;
+        margin-left: 45%;
+        text-decoration: none;
+        text-transform: uppercase;
+        padding: 8px 25px;
+
+    }
+    .gallery-section .get a:hover{
+        background-color: white;
+        color: #173a69;
+    }
+
+
+
+    /*..............................................................................*/
+    .get-start .get-1{
+        text-align: center;
+        color: white;
+        background-color: #173a69;
+        margin-top: 50px;
+        padding: 50px 0;
+    }
+     
+    .get-start p{
+        font-size: 15px;
+    }
+
+    .get-start p a{
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+
+
+    /*...........................................................*/
+    
+
+
+    .futter {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+
+    .futter a{
+        text-decoration: none;
+        color:#8e8e8e;
+        text-align: center;
+      
+    }
+
+    .futter a i{
+        height: 40px;
+        width: 40px;
+        border: 2px solid #acacac;
+        font-size: 25px;
+        line-height: 40px;
+        border-radius: 50%;
+        margin: 0 15px;
+        margin-top: 20px;
+
+        
+    }
+
+    
+    .futter a i:hover{
+        color: white;
+        background-color: #173a69;
+    }
+
+
+    .soket{
+
+        text-align: center;
+        background-color: #173a69;
+        color: white;
+        padding: 15px 0;
+        margin-top: 50px;
+
+
+    }
+
+    .soket p{
+        font-size: 15px;
+        
+    }
+    .soket p a {
+      
+        color: white;
+    }
+
+
+    /*servis section..............................................................................................*/
+    
+
+
+
+    .innar-section{
+        background: url(./img/inner-section.jpg);
+        height: 255px;
+        background-repeat: no-repeat;
+        width: 100%;
+        position: relative;
+       
+    }
+
+    .innar-section::before{
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        background-color: black;
+        left: 0;
+        top: 0;
+        opacity: .5;
+    }
+    .innar-section .flex-colam{
+        text-align: center;
+       padding:90px 0;
+     
+       
+    }
+    .innar-section h2{
+
+        font-size: 32px;
+        font-style: 800;
+        color: #ffffff;
+        position: relative;
+        z-index: 1;
+    }
+    .innar-section p{
+        font-size: 14px;
+        color: #ffffff;
+        z-index: 1;
+        position: relative;
+    }
+    .innar-section span{
+        padding: 0 5px;
+      
+    }
+
+
+    /*   warker section.....................................................*/
+    
+
+    
+    .warlar-section img{
+        width: 100%;
+    }
+
+    .warlar-section .container{
+
+        padding: 125px 100px;
+       
+    }
+
+    .warlar-section .main-colam{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 45px;
+    }
+
+    
+    .warlar-section h2{
+        font-size: 22px;
+        font-style: 600;
+        margin: 25px 0;
+    }
+
+    
+    .warlar-section p{
+        font-size: 15px;
+       
+    }
+
